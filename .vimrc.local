@@ -1,1 +1,4 @@
 let mapleader = ","
+
+colorscheme Monokai
+set nospell
