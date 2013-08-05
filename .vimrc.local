@@ -1,4 +1,5 @@
 let mapleader = ","
 
-colorscheme Monokai
+colorscheme molokai
+IndentGuidesDisable
 set nospell
