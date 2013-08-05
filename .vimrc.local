@@ -1,5 +1,5 @@
 let mapleader = ","
 
 colorscheme molokai
-IndentGuidesDisable
 set nospell
+let g:indent_guides_enable_on_vim_startup = 0
