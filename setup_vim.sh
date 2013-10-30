@@ -18,8 +18,7 @@ ln -s $HOME/opt/vim/bin/vim $HOME/bin
 curl http://j.mp/spf13-vim3 -L -o - | sh
 
 # add my local configuration
-cd $WD
-ln -fs .vimrc.local $HOME/vimrc.local
-ln -fs .vimrc.bundles.local $HOME/vimrc.bundles.local
-vim +BundleInstall +BundleClean +q!
+ln -fs $WD/.vimrc.local $HOME
+ln -fs $WD/.vimrc.bundles.local $HOME
+vim +BundleInstall +BundleClean +qall!
 
